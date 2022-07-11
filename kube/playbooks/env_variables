@@ -1,0 +1,12 @@
+ad_addr: 192.168.56.201
+cidr_v: 10.244.0.0/16
+
+packages:
+- kubeadm
+- kubectl
+
+services:
+- containerd
+- kubelet
+
+token_file: join_token
